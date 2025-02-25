@@ -1,0 +1,68 @@
+/* Fondo tecnológico animado */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;  /* Ajusta el tamaño del logo */
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%; /* Hace que se vean circulares */
+}
+
+.social-icons a .fa-instagram { color: #8a1c4a; } /* Rojo vino */
+.social-icons a .fa-youtube { color: #ff0000; } /* Rojo encendido */
+.social-icons a .fa-facebook { color: #87CEEB; } /* Azul cielo */
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #00ffff;
+}
+
+/* Logo del Header */
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Efecto futurista en las secciones */
+section {
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.8);
+}
